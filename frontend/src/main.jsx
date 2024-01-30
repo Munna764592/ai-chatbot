@@ -6,7 +6,7 @@ import { createTheme, ThemeProvider } from "@mui/material";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext.jsx";
 import axios from "axios";
-axios.defaults.baseURL = "http://localhost:5000/api/v1";
+axios.defaults.baseURL = "https://ai-chatbot-3.vercel.app/api/v1";
 axios.defaults.withCredentials = true;
 
 const theme = createTheme({
