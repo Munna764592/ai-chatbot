@@ -8,7 +8,7 @@ import cors from "cors"
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:5173", credentials: true }))
+app.use(cors({ origin: "https://ai-chatbot-3-rho.vercel.app", credentials: true }))
 dotenv.config();
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET))
