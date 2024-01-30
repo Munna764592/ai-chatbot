@@ -34,7 +34,7 @@ function Header() {
             <>
               <NavigationLink
                 bg="white"
-                to="/login"
+                to="/"
                 text="Login"
                 textColor="black"
                 onClick={login}

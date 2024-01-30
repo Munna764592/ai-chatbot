@@ -54,7 +54,7 @@ function Chat() {
   }, [isLoggedIn]);
   useEffect(() => {
     if(!isLoggedIn){
-     return navigate("/login")
+     return navigate("/")
     }
   }, [isLoggedIn]);
   return (

@@ -18,4 +18,8 @@ app.use(morgan("dev"))
 
 app.use("/api/v1", appRouter);
 
+app.get('/',(req, res)=>{
+    res.json("hello")
+})
+
 export default app;
