@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600;700&family=Baloo+Bhaijaan+2:wght@600&family=Bebas+Neue&family=Cairo:wght@600&family=Comfortaa:wght@600;700&family=Courgette&family=Dancing+Script:wght@700&family=DynaPuff&family=Genos:ital,wght@1,600&family=Lobster&family=Neonderthaw&family=Nunito:wght@300;400;500&family=Pacifico&family=Play&family=Poppins&family=Press+Start+2P&family=Righteous&family=Roboto:wght@300&family=Sofia+Sans+Semi+Condensed:wght@500;700&family=Tangerine:wght@700&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+}
+body {
+  background-color: #05101c;
+  color: white;
+}
+.nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.MuiOutlinedInput-input-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+.css-1rv3ei8-MuiFormControl-root-MuiTextField-root {
+  width: 100% !important;
+}
